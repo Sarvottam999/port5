@@ -65,7 +65,7 @@ export default function ContactPage() {
               </svg>
             </a>
 
-            <a href={"https://twitter.com/?lang=en"} target={'_blank'}className="me-2 [&>svg]:h-5 [&>svg]:w-5 hover:bg-black p-2 rounded-full hover:[&>svg]:fill-[#fcfcfc] [&>svg]:fill-[#101010] bg-white">
+            <a href={"https://twitter.com/sarvottam999"} target={'_blank'}className="me-2 [&>svg]:h-5 [&>svg]:w-5 hover:bg-black p-2 rounded-full hover:[&>svg]:fill-[#fcfcfc] [&>svg]:fill-[#101010] bg-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
