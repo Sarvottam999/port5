@@ -9,7 +9,7 @@ export default function BlogDetailPage() {
 
   //   console.log(blog);
   return (
-    <div className="md:max-w-5xl w-full mx-auto  px-14">
+    <div className="md:max-w-5xl w-full mx-auto mb-10 px-6">
       <div className=" ">
         <img
           className=" aspect-square object-cover md:h-[30rem] h-[20rem]  w-full cursor-pointer bg-black rounded-2xl"
