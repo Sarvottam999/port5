@@ -33,7 +33,7 @@ export default function Navbar() {
             </Link>
           </div>
 
-          <div className="flex space-x-8 mr-10">
+          <div className="flex md:space-x-8 space-x-2 ">
             <span className="[&>svg]:h-5 [&>svg]:w-5 hover:bg-black p-2 rounded-full hover:[&>svg]:fill-[#fcfcfc] [&>svg]:fill-[#101010] bg-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -92,9 +92,8 @@ export default function Navbar() {
           </div>
           </div>
         </div>
-      </div>
 
-      {isOpen && (
+        {isOpen && (
               <div className=" w-full md:hidden bg-gray-800 p-2 rounded-xl shadow-lg flex flex-col ">
                 {/* <Link to={"/"} className="block text-white py-2">Home</Link> */}
                 <Link to={"/port5/blogs"} className="block text-white py-2">Blogs</Link>
@@ -103,6 +102,9 @@ export default function Navbar() {
                 <Link to="/port5/contact" className="block text-white py-2">Contact</Link>
               </div>
             )}
+      </div>
+
+    
     </nav>
   );
 }
